@@ -42,7 +42,7 @@ func get_setting(setting):
         return null
     return ProjectSettings.get_setting(setting)
 
-func set_setting(setting):
+func set_setting(setting, value):
     if not ProjectSettings.has_setting(setting):
         print("Setting doesn't exist: ", setting)
         return
