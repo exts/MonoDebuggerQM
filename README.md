@@ -1,3 +1,11 @@
+# Summary
+
+If you enable debugging with Godot/C#, you have to run the debugger through the IDE every single time you launch Godot. If not, Godot will quickly fail. Going to the project settings and disabling the debugger is also tedious.
+
+That's where this plugin comes in: it adds a small, simple toggle for running Godot with or without debugging:
+
+![screenshot](https://i.imgur.com/4HmH4Pj.png)
+
 # Installation
 
 1. Create an `addons` folder inside your project
